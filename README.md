@@ -8,6 +8,11 @@ Repositorio de códigos versión beta de red GAN aplicada a la generación proce
 * El archivo GAN_AudioGenerator_Convolution.py se entrena específicamente con audios en crudo y, posteriormente, se extrae el espectrograma para usar la matriz de valores de todos los sonidos del dataset para el entrenamiento de la GAN, dando como resultado un archivo .h5 en modo de inferencia para la generación de sonidos.
 En este código, únicamente se cambia la arquitectura de la red generadora y discriminadora para implementar una arquitectura que hace uso de técnicas de convolución. (Alencar, 2019)
 
+- En la carpeta Gestos generados, se encuentran únicamente los sonidos generados por la red GAN.
+- En la carpeta Extractos, se encuentran extractos de la obra "Leviathan", donde los sonidos generados por la red GAN son usados dentro de la composición.
+
+
+
 Visitar:
 https://colab.research.google.com/drive/1gMpWnwGAEddZNFv6sMBH529x95AMny0i#scrollTo=yJHFytcJ8GTI
 
